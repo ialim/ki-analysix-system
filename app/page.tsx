@@ -61,6 +61,7 @@ export default function Home() {
       <header className="site-header">
         <a className="brand" href="#top" aria-label="KI Analysix System home">
           <img src={`${publicBasePath}/ki-analysix-logo.png`} alt="KI Analysix System" />
+          <span className="brand-name">KI Analysix System</span>
         </a>
         <nav aria-label="Primary navigation">
           <a href="#solutions">Solutions</a>
