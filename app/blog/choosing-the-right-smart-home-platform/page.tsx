@@ -12,6 +12,7 @@ export default function ArticlePage() {
       <header className="site-header blog-header">
         <Link className="brand" href={`${base}/`} aria-label="KI Analysix System home">
           <img src={`${base}/ki-analysix-logo.png`} alt="KI Analysix System" />
+          <span className="brand-name">KI Analysix System</span>
         </Link>
         <nav><Link href={`${base}/blog/`}>All insights</Link><a href="mailto:info@ki-analysix.com">Contact</a></nav>
       </header>
