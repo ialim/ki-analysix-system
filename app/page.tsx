@@ -60,8 +60,7 @@ export default function Home() {
     <main style={{ "--hero-url": `url("${publicBasePath}/ki-analysix-hero.webp")` } as React.CSSProperties}>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="KI Analysix System home">
-          <span className="brand-mark" aria-hidden="true" />
-          <span>KI ANALYSIX</span>
+          <img src={`${publicBasePath}/ki-analysix-logo.png`} alt="KI Analysix System" />
         </a>
         <nav aria-label="Primary navigation">
           <a href="#solutions">Solutions</a>
@@ -232,7 +231,9 @@ export default function Home() {
 
       <footer>
         <div className="shell footer-grid">
-          <a className="brand" href="#top"><span className="brand-mark" /><span>KI ANALYSIX</span></a>
+          <a className="brand" href="#top" aria-label="KI Analysix System home">
+            <img src={`${publicBasePath}/ki-analysix-logo.png`} alt="KI Analysix System" />
+          </a>
           <p>Integrated systems for safer, smarter and more efficient spaces.</p>
           <div><a href="#solutions">Solutions</a><a href="#industries">Industries</a><a href="#about">About</a><a href={`${publicBasePath}/blog/`}>Insights</a></div>
         </div>

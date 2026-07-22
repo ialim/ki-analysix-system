@@ -10,8 +10,9 @@ export const metadata: Metadata = {
   description: "Integrated security, networks, smart homes, hospitality automation, AV, safety and power systems in Lagos, Nigeria.",
   other: { "codex-preview": "development" },
   icons: {
-    icon: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/favicon.svg`,
-    shortcut: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/favicon.svg`,
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/ki-analysix-logo.png`,
+    shortcut: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/ki-analysix-logo.png`,
+    apple: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/ki-analysix-logo.png`,
   },
 };
 
