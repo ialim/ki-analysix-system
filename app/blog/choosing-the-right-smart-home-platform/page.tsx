@@ -10,11 +10,11 @@ export default function ArticlePage() {
   return (
     <main className="article-page">
       <header className="site-header blog-header">
-        <Link className="brand" href={`${base}/`} aria-label="KI Analysix System home">
+        <Link className="brand" href="/" aria-label="KI Analysix System home">
           <img src={`${base}/ki-analysix-logo.png`} alt="KI Analysix System" />
           <span className="brand-name">KI Analysix System</span>
         </Link>
-        <nav><Link href={`${base}/blog/`}>All insights</Link><a href="mailto:info@ki-analysix.com">Contact</a></nav>
+        <nav><Link href="/blog/">All insights</Link><Link href="/shop/">Shop</Link><a href="mailto:info@ki-analysix.com">Contact</a></nav>
       </header>
       <article className="article-shell">
         <p className="section-kicker light">Smart homes · 22 July 2026</p>

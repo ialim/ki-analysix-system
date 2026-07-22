@@ -20,11 +20,11 @@ export default function BlogPage() {
   return (
     <main className="blog-page">
       <header className="site-header blog-header">
-        <Link className="brand" href={`${base}/`} aria-label="KI Analysix System home">
+        <Link className="brand" href="/" aria-label="KI Analysix System home">
           <img src={`${base}/ki-analysix-logo.png`} alt="KI Analysix System" />
           <span className="brand-name">KI Analysix System</span>
         </Link>
-        <nav><Link href={`${base}/`}>Home</Link><a href="mailto:info@ki-analysix.com">Contact</a></nav>
+        <nav><Link href="/">Home</Link><Link href="/shop/">Shop</Link><a href="mailto:info@ki-analysix.com">Contact</a></nav>
       </header>
       <section className="blog-hero shell">
         <p className="section-kicker light">KI Analysix insights</p>
@@ -36,7 +36,7 @@ export default function BlogPage() {
           <article className="post-card" key={post.slug}>
             <div><span>{post.category}</span><time>{post.date}</time></div>
             <h2>{post.title}</h2><p>{post.excerpt}</p>
-            <Link href={`${base}/blog/${post.slug}/`}>Read article <span>→</span></Link>
+            <Link href={`/blog/${post.slug}/`}>Read article <span>→</span></Link>
           </article>
         ))}
       </section>

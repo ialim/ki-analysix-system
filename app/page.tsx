@@ -65,6 +65,7 @@ export default function Home() {
         </a>
         <nav aria-label="Primary navigation">
           <a href="#solutions">Solutions</a>
+          <a href={`${publicBasePath}/shop/`}>Shop</a>
           <a href="#industries">Industries</a>
           <a href="#about">About</a>
           <a href={`${publicBasePath}/blog/`}>Insights</a>
@@ -87,7 +88,7 @@ export default function Home() {
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="#contact">Plan your project <span>↗</span></a>
-            <a className="button button-ghost" href="#solutions">Explore solutions <span>↓</span></a>
+            <a className="button button-ghost" href={`${publicBasePath}/shop/`}>Explore the shop <span>↗</span></a>
           </div>
         </div>
         <div className="signal-card signal-one" aria-hidden="true">
@@ -236,7 +237,7 @@ export default function Home() {
             <img src={`${publicBasePath}/ki-analysix-logo.png`} alt="KI Analysix System" />
           </a>
           <p>Integrated systems for safer, smarter and more efficient spaces.</p>
-          <div><a href="#solutions">Solutions</a><a href="#industries">Industries</a><a href="#about">About</a><a href={`${publicBasePath}/blog/`}>Insights</a></div>
+          <div><a href="#solutions">Solutions</a><a href={`${publicBasePath}/shop/`}>Shop</a><a href="#industries">Industries</a><a href="#about">About</a><a href={`${publicBasePath}/blog/`}>Insights</a></div>
         </div>
         <div className="shell footer-bottom"><span>© 2026 KI Analysix System</span><span>Lagos, Nigeria</span></div>
       </footer>
