@@ -27,14 +27,13 @@ export default function ShopCatalog() {
     <section className="catalogue shell" id="catalogue">
       <div className="catalogue-heading"><div><p className="section-kicker light">Curated launch range</p><h2>{filtered.length} products</h2></div><p>Prices and live stock will be added after supplier verification. Every request is checked for protocol, wiring, load and installation fit.</p></div>
       <div className="product-grid">{filtered.map((product) => {
-        const subject = encodeURIComponent(`Product enquiry: ${product.model}`);
-        const body = encodeURIComponent(`Hello KI Analysix,\n\nI am interested in ${product.name} (${product.model}).\nSKU: ${product.sku}\nPreferred path: ${product.salesPath}\n\nProject/location details:`);
+        const message = encodeURIComponent(`Hello KI Analysix,\n\nI would like to request the current price and availability for:\nProduct: ${product.name}\nModel: ${product.model}\nSKU: ${product.sku}\nPreferred path: ${product.salesPath}\n\nQuantity:\nProject location:\nInstallation required: Yes / No`);
         return <article className="product-card" key={product.sku}>
           <div className="product-card-top"><span>{product.category}</span><b>{product.model}</b></div><div className="product-mark" aria-hidden="true">{product.category.slice(0, 2).toUpperCase()}</div>
           <h3>{product.name}</h3><div className="product-badges"><span>{product.protocol}</span><span>{product.salesPath}</span></div>
           <dl><div><dt>Gateway</dt><dd>{product.gateway}</dd></div><div><dt>Power / load</dt><dd>{product.electrical}</dd></div><div><dt>Wiring</dt><dd>{product.neutral}</dd></div></dl>
           {product.launchTier === "Conditional" && <p className="compatibility-note">Compatibility confirmation required before sale.</p>}
-          <a href={`mailto:info@ki-analysix.com?subject=${subject}&body=${body}`}>Request price & availability <span>↗</span></a>
+          <a href={`https://wa.me/2349011151234?text=${message}`} target="_blank" rel="noopener noreferrer">Request price & availability <span>↗</span></a>
         </article>;
       })}</div>
       {filtered.length === 0 && <div className="empty-results"><h3>No products match those filters.</h3><button onClick={() => { setQuery(""); setCategory("all"); setPath("All"); }}>Reset catalogue</button></div>}
