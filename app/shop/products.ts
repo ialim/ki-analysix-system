@@ -1,4 +1,5 @@
 import productData from "./products.json";
+import { switchExpansion } from "./switchExpansion";
 
 export type SalesPath = "Buy directly" | "Buy with installation" | "Configure a project";
 export type Product = {
@@ -6,6 +7,7 @@ export type Product = {
   protocol: string; ecosystem: string; gateway: string; neutral: string;
   electrical: string; size: string; salesPath: SalesPath;
   launchTier: "Core" | "Extended" | "Conditional"; cataloguePage: number; note: string;
+  image?: string; series?: string;
 };
 
 export const categories = [
@@ -16,4 +18,4 @@ export const categories = [
   ["cameras", "Smart cameras"],
 ] as const;
 
-export const products = productData as Product[];
+export const products = [...(productData as Product[]), ...switchExpansion];
