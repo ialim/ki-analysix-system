@@ -1,0 +1,425 @@
+[
+  {
+    "model": "S111",
+    "sku": "KI-TAOS-SW-S111",
+    "asset": "/products/s111.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 5,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "S112",
+    "sku": "KI-TAOS-SW-S112",
+    "asset": "/products/s112.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 5,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "S113",
+    "sku": "KI-TAOS-SW-S113",
+    "asset": "/products/s113.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 5,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "S114",
+    "sku": "KI-TAOS-SW-S114",
+    "asset": "/products/s114.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 5,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "T1-001",
+    "sku": "KI-TAOS-SW-T1001",
+    "asset": "/products/t1-001.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 15,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "T1-002",
+    "sku": "KI-TAOS-SW-T1002",
+    "asset": "/products/t1-002.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 15,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "T1-003",
+    "sku": "KI-TAOS-SW-T1003",
+    "asset": "/products/t1-003.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 15,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "T1-004",
+    "sku": "KI-TAOS-SW-T1004",
+    "asset": "/products/t1-004.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 15,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "RX-CM41Z",
+    "sku": "KI-TAOS-CM-RXCM41Z",
+    "asset": "/products/rx-cm41z.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 25,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "RX-CM35",
+    "sku": "KI-TAOS-CM-RXCM35",
+    "asset": "/products/rx-cm35.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 25,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "GWZ11AWC",
+    "sku": "KI-TAOS-GW-GWZ11AWC",
+    "asset": "/products/gwz11awc.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 27,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "RC006IRW",
+    "sku": "KI-TAOS-GW-RC006IRW",
+    "asset": "/products/rc006irw.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 27,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "GWZ12",
+    "sku": "KI-TAOS-GW-GWZ12",
+    "asset": "/products/gwz12.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 27,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SR-S001",
+    "sku": "KI-TAOS-SE-SRS001",
+    "asset": "/products/sr-s001.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 28,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SR-M001",
+    "sku": "KI-TAOS-SE-SRM001",
+    "asset": "/products/sr-m001.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 28,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SR-D001",
+    "sku": "KI-TAOS-SE-SRD001",
+    "asset": "/products/sr-d001.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 28,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SR-F002",
+    "sku": "KI-TAOS-SE-SRF002",
+    "asset": "/products/sr-f002.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 28,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SR-T001",
+    "sku": "KI-TAOS-SE-SRT001",
+    "asset": "/products/sr-t001.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 28,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SR-P00224G",
+    "sku": "KI-TAOS-SE-SRP00224G",
+    "asset": "/products/sr-p00224g.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 28,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SR-G001",
+    "sku": "KI-TAOS-SE-SRG001",
+    "asset": "/products/sr-g001.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 28,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SCP-TS4",
+    "sku": "KI-TAOS-CP-SCPTS4",
+    "asset": "/products/scp-ts4.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 29,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SCP-TS8",
+    "sku": "KI-TAOS-CP-SCPTS8",
+    "asset": "/products/scp-ts8.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 30,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SCP-TS10",
+    "sku": "KI-TAOS-CP-SCPTS10",
+    "asset": "/products/scp-ts10.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 29,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "ZAN-CS240LC",
+    "sku": "KI-TAOS-LD-ZANCS240LC",
+    "asset": "/products/zan-cs240lc.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 31,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "ZAN-S100LC",
+    "sku": "KI-TAOS-LD-ZANS100LC",
+    "asset": "/products/zan-s100lc.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 31,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "EU-M20-D12",
+    "sku": "KI-TAOS-LI-EUM20D12",
+    "asset": "/products/eu-m20-d12.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 33,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "CK-S001-10",
+    "sku": "KI-TAOS-LI-CKS00110",
+    "asset": "/products/ck-s001-10.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 34,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "CK-D001-10",
+    "sku": "KI-TAOS-LI-CKD00110",
+    "asset": "/products/ck-d001-10.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 34,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "QN-A001",
+    "sku": "KI-TAOS-WC-QNA001",
+    "asset": "/products/qn-a001.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 35,
+    "extraction": "page-crop",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "QN-A002",
+    "sku": "KI-TAOS-WC-QNA002",
+    "asset": "/products/qn-a002.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 35,
+    "extraction": "page-crop",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "QN-CZ4",
+    "sku": "KI-TAOS-WC-QNCZ4",
+    "asset": "/products/qn-cz4.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 36,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "JLY2",
+    "sku": "KI-TAOS-DL-JLY2",
+    "asset": "/products/jly2.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 37,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "JLC2PR",
+    "sku": "KI-TAOS-DL-JLC2PR",
+    "asset": "/products/jlc2pr.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 37,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "JLX6PL",
+    "sku": "KI-TAOS-DL-JLX6PL",
+    "asset": "/products/jlx6pl.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 38,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "HS1214Z",
+    "sku": "KI-TAOS-HV-HS1214Z",
+    "asset": "/products/hs1214z.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 39,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "GAC-DMA",
+    "sku": "KI-TAOS-HV-GACDMA",
+    "asset": "/products/gac-dma.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 39,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "GAC-DMB",
+    "sku": "KI-TAOS-HV-GACDMB",
+    "asset": "/products/gac-dmb.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 39,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "DL1608M-GBR",
+    "sku": "KI-TAOS-PL-DL1608MGBR",
+    "asset": "/products/dl1608m-gbr.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 41,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "DL1626M-GBR",
+    "sku": "KI-TAOS-PL-DL1626MGBR",
+    "asset": "/products/dl1626m-gbr.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 42,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "KN-S201ZE",
+    "sku": "KI-TAOS-MO-KNS201ZE",
+    "asset": "/products/kn-s201ze.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 43,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "KN-S202ZE",
+    "sku": "KI-TAOS-MO-KNS202ZE",
+    "asset": "/products/kn-s202ze.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 43,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "KN-C201ZE",
+    "sku": "KI-TAOS-MO-KNC201ZE",
+    "asset": "/products/kn-c201ze.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 43,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "KN-BC201WE",
+    "sku": "KI-TAOS-MO-KNBC201WE",
+    "asset": "/products/kn-bc201we.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 43,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "KN-S201ZS",
+    "sku": "KI-TAOS-MO-KNS201ZS",
+    "asset": "/products/kn-s201zs.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 44,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "AJD-422EM",
+    "sku": "KI-TAOS-CA-AJD422EM",
+    "asset": "/products/ajd-422em.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 45,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "AJY-1222EM",
+    "sku": "KI-TAOS-CA-AJY1222EM",
+    "asset": "/products/ajy-1222em.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 45,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "AJQ-1628EM",
+    "sku": "KI-TAOS-CA-AJQ1628EM",
+    "asset": "/products/ajq-1628em.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 46,
+    "extraction": "embedded-image",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  }
+]
