@@ -180,33 +180,6 @@
     "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
   },
   {
-    "model": "SCP-TS4",
-    "sku": "KI-TAOS-CP-SCPTS4",
-    "asset": "/products/scp-ts4.webp",
-    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
-    "cataloguePage": 29,
-    "extraction": "embedded-image",
-    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
-  },
-  {
-    "model": "SCP-TS8",
-    "sku": "KI-TAOS-CP-SCPTS8",
-    "asset": "/products/scp-ts8.webp",
-    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
-    "cataloguePage": 30,
-    "extraction": "embedded-image",
-    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
-  },
-  {
-    "model": "SCP-TS10",
-    "sku": "KI-TAOS-CP-SCPTS10",
-    "asset": "/products/scp-ts10.webp",
-    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
-    "cataloguePage": 29,
-    "extraction": "embedded-image",
-    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
-  },
-  {
     "model": "QN-A001",
     "sku": "KI-TAOS-WC-QNA001",
     "asset": "/products/qn-a001.webp",
@@ -1040,6 +1013,86 @@
     "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
     "cataloguePage": 34,
     "sourceXref": 563,
+    "extraction": "embedded-catalogue-image-with-safe-fit",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SCP-TS10",
+    "sku": "KI-TAOS-CP-SCPTS10",
+    "asset": "/products/scp-ts10.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 29,
+    "sourceXref": 496,
+    "extraction": "embedded-catalogue-image-with-safe-fit",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SCP-TS4",
+    "sku": "KI-TAOS-CP-SCPTS4",
+    "asset": "/products/scp-ts4.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 29,
+    "sourceXref": 502,
+    "extraction": "embedded-catalogue-image-with-safe-fit",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SCP-NS3.5",
+    "sku": "KI-TAOS-CP-SCPNS35",
+    "asset": "/products/scp-ns3-5.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 30,
+    "sourceXref": 514,
+    "extraction": "embedded-catalogue-image-with-safe-fit",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SCP-TS3.5",
+    "sku": "KI-TAOS-CP-SCPTS35",
+    "asset": "/products/scp-ts3-5.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 30,
+    "sourceXref": 516,
+    "extraction": "embedded-catalogue-image-with-safe-fit",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SCP-NS6",
+    "sku": "KI-TAOS-CP-SCPNS6",
+    "asset": "/products/scp-ns6.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 30,
+    "sourceXref": 509,
+    "extraction": "embedded-catalogue-image-with-safe-fit",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SCP-TS8",
+    "sku": "KI-TAOS-CP-SCPTS8",
+    "asset": "/products/scp-ts8.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 30,
+    "sourceXref": 518,
+    "extraction": "embedded-catalogue-image-with-safe-fit",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SCP-NS8",
+    "sku": "KI-TAOS-CP-SCPNS8",
+    "asset": "/products/scp-ns8.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 30,
+    "sourceXref": 511,
+    "extraction": "embedded-catalogue-image-with-safe-fit",
+    "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
+  },
+  {
+    "model": "SCP-NS12",
+    "sku": "KI-TAOS-CP-SCPNS12",
+    "asset": "/products/scp-ns12.webp",
+    "source": "TAOS CATALOG-WIRELESS SMART PRODUCTS .pdf",
+    "cataloguePage": 30,
+    "sourceXref": 512,
     "extraction": "embedded-catalogue-image-with-safe-fit",
     "consent": "Supplier verbal consent confirmed by KI Analysix System on 2026-07-23."
   }

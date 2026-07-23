@@ -1,4 +1,5 @@
 import productData from "./products.json";
+import { controlPanelExpansion } from "./controlPanelExpansion";
 import { lightingExpansion } from "./lightingExpansion";
 import { switchExpansion } from "./switchExpansion";
 
@@ -27,8 +28,21 @@ const replacedLightingModels = new Set([
   "CK-D001-10",
 ]);
 
+const replacedControlPanelModels = new Set([
+  "SCP-TS4",
+  "SCP-TS8",
+  "SCP-TS10",
+]);
+
 const baseProducts = (productData as Product[]).filter(
-  (product) => !replacedLightingModels.has(product.model)
+  (product) =>
+    !replacedLightingModels.has(product.model) &&
+    !replacedControlPanelModels.has(product.model)
 );
 
-export const products = [...baseProducts, ...switchExpansion, ...lightingExpansion];
+export const products = [
+  ...baseProducts,
+  ...switchExpansion,
+  ...lightingExpansion,
+  ...controlPanelExpansion,
+];
