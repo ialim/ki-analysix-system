@@ -12,12 +12,18 @@ number and catalogue page. KI Analysix System confirmed supplier verbal consent
 for marketing and resale use on 23 July 2026. The generated asset-to-source
 mapping is retained in `public/products/source-manifest.json`.
 
-## GitHub Pages
+## Deployment
 
-The included GitHub Actions workflow builds and publishes the site whenever
-the `main` branch changes. In the repository settings, set **Pages → Source**
-to **GitHub Actions**. The workflow automatically supports both account sites
-(`owner.github.io`) and project sites (`owner.github.io/repository`).
+The site is configured for Vercel. Import this repository into the linked
+Vercel account with the default Next.js settings:
+
+- Framework preset: Next.js
+- Build command: `npm run build`
+- Output directory: managed automatically by Vercel
+- Production branch: `main`
+
+Every push to `main` creates a production deployment. Pull requests receive
+preview deployments.
 
 ## Local development
 
