@@ -31,7 +31,13 @@ export default function ShopCatalog() {
   const [series, setSeries] = useState("all");
   const [lightingFamily, setLightingFamily] = useState("all");
   const [panelFamily, setPanelFamily] = useState("all");
+  const [productFamily, setProductFamily] = useState("all");
   const [query, setQuery] = useState("");
+  const productFamilies = useMemo(() => Array.from(new Set(
+    products
+      .filter((product) => product.categoryKey === category && product.family)
+      .map((product) => product.family as string)
+  )), [category]);
   const filtered = useMemo(() => {
     const term = query.trim().toLowerCase();
     return products.filter((product) =>
@@ -41,21 +47,31 @@ export default function ShopCatalog() {
         (!product.series && product.model.toLowerCase().startsWith(series.toLowerCase()))) &&
       (!["lighting", "drivers"].includes(category) || lightingFamily === "all" || product.family === lightingFamily) &&
       (category !== "panels" || panelFamily === "all" || product.family === panelFamily) &&
+      (["all", "switches", "lighting", "drivers", "panels"].includes(category) || productFamily === "all" || product.family === productFamily) &&
       (!term || [product.name, product.model, product.sku, product.protocol, product.category].some((value) => value.toLowerCase().includes(term)))
     );
-  }, [category, lightingFamily, panelFamily, path, query, series]);
+  }, [category, lightingFamily, panelFamily, path, productFamily, query, series]);
+
+  const selectCategory = (nextCategory: string) => {
+    setCategory(nextCategory);
+    setSeries("all");
+    setLightingFamily("all");
+    setPanelFamily("all");
+    setProductFamily("all");
+  };
 
   return <>
     <section className="shop-controls shell" aria-label="Catalogue filters">
       <label className="shop-search"><span>Search catalogue</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Product, model or protocol" /></label>
-      <div className="filter-block"><span>Category</span><div className="filter-pills"><button className={category === "all" ? "active" : ""} onClick={() => setCategory("all")}>All</button>{categories.map(([key, label]) => <button className={category === key ? "active" : ""} onClick={() => setCategory(key)} key={key}>{label}</button>)}</div></div>
+      <div className="filter-block"><span>Category</span><div className="filter-pills"><button className={category === "all" ? "active" : ""} onClick={() => selectCategory("all")}>All</button>{categories.map(([key, label]) => <button className={category === key ? "active" : ""} onClick={() => selectCategory(key)} key={key}>{label}</button>)}</div></div>
       {category === "switches" && <div className="filter-block"><span>Switch series</span><div className="filter-pills"><button className={series === "all" ? "active" : ""} onClick={() => setSeries("all")}>All series</button>{switchSeries.map((item) => <button className={series === item ? "active" : ""} onClick={() => setSeries(item)} key={item}>{item}</button>)}</div></div>}
       {["lighting", "drivers"].includes(category) && <div className="filter-block"><span>Lighting family</span><div className="filter-pills"><button className={lightingFamily === "all" ? "active" : ""} onClick={() => setLightingFamily("all")}>All lighting</button>{lightingFamilies.map((item) => <button className={lightingFamily === item ? "active" : ""} onClick={() => setLightingFamily(item)} key={item}>{item}</button>)}</div></div>}
       {category === "panels" && <div className="filter-block"><span>Panel family</span><div className="filter-pills"><button className={panelFamily === "all" ? "active" : ""} onClick={() => setPanelFamily("all")}>All panels</button>{panelFamilies.map((item) => <button className={panelFamily === item ? "active" : ""} onClick={() => setPanelFamily(item)} key={item}>{item}</button>)}</div></div>}
+      {!["all", "switches", "lighting", "drivers", "panels"].includes(category) && productFamilies.length > 1 && <div className="filter-block"><span>Product family</span><div className="filter-pills"><button className={productFamily === "all" ? "active" : ""} onClick={() => setProductFamily("all")}>All families</button>{productFamilies.map((item) => <button className={productFamily === item ? "active" : ""} onClick={() => setProductFamily(item)} key={item}>{item}</button>)}</div></div>}
       <div className="filter-block path-filter"><span>How to buy</span><div className="filter-pills">{paths.map((item) => <button className={path === item ? "active" : ""} onClick={() => setPath(item)} key={item}>{item}</button>)}</div></div>
     </section>
     <section className="catalogue shell" id="catalogue">
-      <div className="catalogue-heading"><div><p className="section-kicker light">Complete catalogue range</p><h2>{filtered.length} products</h2></div><p>All supplier-catalogue switch, smart-lighting and control-panel families are represented. KI Analysix holds physical samples for most switch families; exact protocol, finish, panel features, lighting configuration and availability are confirmed with every request.</p></div>
+      <div className="catalogue-heading"><div><p className="section-kicker light">Complete catalogue range</p><h2>{filtered.length} products</h2></div><p>All supplier-catalogue categories are represented. KI Analysix holds physical samples for most switch families; exact protocol, finish, configuration, certification and availability are confirmed with every request.</p></div>
       <div className="product-grid">{filtered.map((product) => {
         const message = encodeURIComponent(`Hello KI Analysix,\n\nI would like to request the current price and availability for:\nProduct: ${product.name}\nModel: ${product.model}\nSKU: ${product.sku}\nPreferred path: ${product.salesPath}\n\nQuantity:\nProject location:\nInstallation required: Yes / No`);
         const imageName = product.image ?? `${product.model.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}.webp`;
@@ -68,7 +84,7 @@ export default function ShopCatalog() {
           <a href={`https://wa.me/2349011151234?text=${message}`} target="_blank" rel="noopener noreferrer">Request price & availability <span>↗</span></a>
         </article>;
       })}</div>
-      {filtered.length === 0 && <div className="empty-results"><h3>No products match those filters.</h3><button onClick={() => { setQuery(""); setCategory("all"); setSeries("all"); setLightingFamily("all"); setPanelFamily("all"); setPath("All"); }}>Reset catalogue</button></div>}
+      {filtered.length === 0 && <div className="empty-results"><h3>No products match those filters.</h3><button onClick={() => { setQuery(""); selectCategory("all"); setPath("All"); }}>Reset catalogue</button></div>}
     </section>
   </>;
 }

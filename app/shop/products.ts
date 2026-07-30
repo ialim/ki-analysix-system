@@ -1,6 +1,7 @@
 import productData from "./products.json";
 import { controlPanelExpansion } from "./controlPanelExpansion";
 import { lightingExpansion } from "./lightingExpansion";
+import { remainingCategoryExpansion } from "./remainingCategoryExpansion";
 import { switchExpansion } from "./switchExpansion";
 
 export type SalesPath = "Buy directly" | "Buy with installation" | "Configure a project";
@@ -34,10 +35,15 @@ const replacedControlPanelModels = new Set([
   "SCP-TS10",
 ]);
 
+const replacedRemainingModels = new Set(
+  remainingCategoryExpansion.map((product) => product.model)
+);
+
 const baseProducts = (productData as Product[]).filter(
   (product) =>
     !replacedLightingModels.has(product.model) &&
-    !replacedControlPanelModels.has(product.model)
+    !replacedControlPanelModels.has(product.model) &&
+    !replacedRemainingModels.has(product.model)
 );
 
 export const products = [
@@ -45,4 +51,5 @@ export const products = [
   ...switchExpansion,
   ...lightingExpansion,
   ...controlPanelExpansion,
+  ...remainingCategoryExpansion,
 ];
